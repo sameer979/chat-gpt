@@ -80,7 +80,7 @@ const handleSubmit = async (e) => {
   
   loader(messageDiv);
 
-  const response = await fetch("http://localhost:3008", {
+  const response = await fetch("https://chat-gpt-t2d5.onrender.com/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
